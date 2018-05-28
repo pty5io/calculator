@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>calculator</title>
+  <meta name="description" content="calculator">
+  <meta name="author" content="Jimmy">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="display">
+      <div id="displaySmall">123456789</div>
+      <div id="displayBig"></div>
+    </div>
+    <div id="keyboard">
+      <button type="button" id="clear" value="clear" onclick="clear()">C</button>
+      <button type="button" class="operator" id="div" value="div">/</button>
+      <button type="button" class="operator" id="mul" value="mul">*</button>
+      <button type="button" class="operator" id="sub" value="sub">-</button>
+      <button type="button" class="number" id="seven" value="7">7</button>
+      <button type="button" class="number" id="eight" value="8">8</button>
+      <button type="button" class="number" id="nine" value="9">9</button>
+      <button type="button" class="number" id="four" value="4">4</button>
+      <button type="button" class="number" id="five" value="5">5</button>
+      <button type="button" class="number" id="six" value="6">6</button>
+      <button type="button" class="number" id="one" value="1">1</button>
+      <button type="button" class="number" id="two" value="2">2</button>
+      <button type="button" class="number" id="three" value="3">3</button>
+      <button type="button" class="number" id="zero" value="0">0</button>
+      <button type="button" class="number" id="dot" value=".">.</button>
+      <button type="button" id="enter" value="enter">=</button>
+      <button type="button" class="operator" id="plus" value="plus">+</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
